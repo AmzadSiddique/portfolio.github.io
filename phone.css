@@ -1,0 +1,293 @@
+/* Responsive Media Query */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+/* Navbar Responsive Query */
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .logo {
+        padding-right: 50%;
+    }
+
+    nav .listItems {
+        position: fixed;
+        height: max-content;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: white;
+        transition: all 0.3s ease;
+        display: block;
+        padding-left: 50px;
+    }
+
+    nav .links {
+        position: fixed;
+        background: white;
+        transition: all 0.3s ease;
+        display: none;
+        padding-left: 50px;
+    }
+
+    nav .listItems.active {
+        left: 0;
+    }
+
+    nav .links a.active {
+        left: 0;
+    }
+
+    nav .listItems li {
+        display: block;
+    }
+
+    nav .links i {
+        display: block;
+    }
+
+    nav .listItems li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    nav .links a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .wrapper{
+        height: auto;
+    }
+    .topline{
+       font-size: 30px;
+    }
+    p{
+       font-size: 35px;
+    }
+    .topline::after{
+       width: 50px;
+    }
+    .container{
+        min-height: 70vh;
+    }
+}
+
+/* about section  */
+
+@media (max-width: 520px) {
+    .about_sec {
+        display: block;
+        position: relative;
+    }
+
+    .about_card {
+        width: auto;
+    }
+
+    .at_1 {
+        font-size: 5rem;
+    }
+
+    .at_2 {
+        padding-top: 0px;
+        font-size: 3rem;
+    }
+
+    .at_3 {
+        font-size: 40px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+}
+
+/* project first section  */
+
+@media (max-width: 520px) {
+    .project_box {
+        padding: 80px;
+    }
+
+    .project_sec {
+        width: auto;
+        height: 700px;
+    }
+
+    .project_card {
+        letter-spacing: 1px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .project_card1 {
+        letter-spacing: 1px;
+        width: 0px;
+        visibility: hidden;
+        padding-left: 0px;
+    }
+
+    .pt_1 {
+        font-size: 40px;
+    }
+
+    .pt_2 {
+        font-size: 60px;
+    }
+
+    .pt_3 {
+        font-size: 40px;
+    }
+}
+
+/* project second section  */
+
+@media (max-width: 520px) {
+    .project_box1 {
+        padding: 80px;
+    }
+
+    .project_sec1 {
+        width: auto;
+        height: 900px;
+    }
+
+    .project_card2 {
+        letter-spacing: 1px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .project_card3 {
+        letter-spacing: 1px;
+        width: 0px;
+        visibility: hidden;
+        padding-left: 0px;
+    }
+
+    .pt_4 {
+        font-size: 40px;
+    }
+
+    .pt_5 {
+        font-size: 60px;
+    }
+
+    .pt_6 {
+        font-size: 40px;
+    }
+
+    .links a {
+        font-size: 70px;
+    }
+}
+
+/* worked section  */
+
+/* contact section  */
+@media (max-width: 520px) {
+    .contact_sec {
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .ct_2 {
+        font-size: 60px;
+    }
+
+    .ct_3 {
+        font-size: 40px;
+    }
+
+    .c_logo {
+        font-size: 30px;
+    }
+}
+
+/* footer section  */
+
+@media (max-width: 520px) {
+    .footer_style {
+        display: flow-root;
+    }
+
+    #logo_1 {
+        height: 300px;
+        width: auto;
+        display: flex;
+    }
+
+    .logo_title_1 {
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 80px;
+    }
+
+    #logo_2 {
+        height: 300px;
+        width: auto;
+        text-align: center;
+    }
+
+    .logo_title_2 {
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .logo_title_2 p {
+        color: white;
+        padding: 50px;
+        font-size: 40px;
+    }
+
+    #logo_3 {
+        height: 300px;
+        width: auto;
+        text-align: center;
+    }
+
+    .logo_title_3 {
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .logo_icons a {
+        font-size: 60px;
+        margin: 30px;
+        padding: 8px 40px 8px 40px;
+    }
+
+    #logo_4 {
+        height: 100px;
+    }
+
+    .logo_title_4 {
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 40px;
+        display: table-cell;
+        width: auto;
+    }
+
+    .footer_items {
+        visibility: hidden;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+}
